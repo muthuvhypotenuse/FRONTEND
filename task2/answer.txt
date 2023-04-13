@@ -1,0 +1,3 @@
+Total width of the box = 256px
+
+Total height of the box = 56px
