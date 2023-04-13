@@ -4,13 +4,13 @@ const number2= 11;
 if (number % 3 === 0) {
   console.log("Foo");
 }
-if (number % 5 === 0) {
+else if (number % 5 === 0) {
   console.log("Bar");
 }
-if (number % 3 === 0 && number % 5 === 0) {
+else if (number % 3 === 0 && number % 5 === 0) {
     console.log("Foo & Bar");
   }
-if (number2 % 3 !== 0 && number2 % 5 !== 0){
+else if (number2 % 3 !== 0 && number2 % 5 !== 0){
   console.log("Neither Foo nor Bar");
 }
 

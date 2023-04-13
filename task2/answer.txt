@@ -1,3 +1,14 @@
+
+ box-sizing: content-box;
+
 Total width of the box = 256px
 
 Total height of the box = 56px
+
+
+  box-sizing: border-box;
+
+
+Total width of the box = 250px
+
+Total height of the box = 50px
