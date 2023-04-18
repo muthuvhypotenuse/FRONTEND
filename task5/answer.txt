@@ -1,0 +1,40 @@
+Question 2
+
+px (pixels) 
+    a pixel is the absolute unit of measurement used to display an image or text on a screen.It is a fixed size, 
+so 1px will always be the same physical size on any device. Pixels are commonly used for defining font sizes, 
+borders, and spacing.
+
+rem (root em) 
+    a rem is a unit that is relative to the root font size of the document. By default, 
+the root font size is typically 16px, so 1rem is equal to 16px. If the font size of the document is changed, 
+Rems are often used for defining font sizes.
+
+em (em-height)
+    an em is a unit that is relative to the font size of the parent element. 
+if the font size of the parent element is 16px, 1em would be equal to 16px. 
+Ems are often used for defining font sizes and spacing.
+
+% (percentage)
+    a percentage is a unit that is relative to the size of the parent element.
+if a child element has a width of 50%, it will be half the width of its parent element. 
+Percentages are often used for defining widths, heights, and spacing.
+
+vw (viewport width)
+    a vw is a unit that is relative to the width of the viewport. 
+1vw is equal to 1% of the viewport width.
+This unit is often used for defining widths and font sizes that need to scale with the viewport size.
+
+vh (viewport height)
+    a vh is a unit that is relative to the height of the viewport. 
+1vh is equal to 1% of the viewport height. 
+This unit is often used for defining heights and font sizes that need to scale with the viewport size.
+
+
+Question 3
+
+62.5% as font size to html element
+
+    Setting the font size of the html element to 62.5% is a common practice in web design and development. 
+This is because 62.5% is equal to 10px when the default font size of the browser is 16px. By setting the base font size to 10px, 
+it becomes easier to calculate font sizes in rem units.
