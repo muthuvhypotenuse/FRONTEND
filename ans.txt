@@ -1,0 +1,15 @@
+Qustion 1
+
+React is an open-source JavaScript library for building user interfaces. 
+It was created by Facebook and is now maintained by both Facebook and a large community of developers. 
+React allows developers to create reusable UI components that can be used across different applications.
+
+One of the key features of React is its use of a virtual DOM (Document Object Model) to render components efficiently. 
+Instead of updating the entire DOM whenever there is a change,
+React only updates the parts that have changed, resulting in faster rendering and improved performance.
+
+Qustion 2
+
+A framework is used for building and deploying an application quickly.
+When we use a framework, we can use resources to facilitate faster development and a greater user experience. 
+A library is used to enhance the functionality of an application
