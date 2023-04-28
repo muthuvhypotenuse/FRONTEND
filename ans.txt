@@ -1,0 +1,27 @@
+Qustion 1
+
+Props are passed down from a parent component to a child component. 
+They are immutable, meaning that the child component cannot modify them. 
+The parent component owns and controls the props, and it can update them by re-rendering the child component with different prop values. 
+Props are useful for passing data or functions from a parent component to its child component, allowing for composition of complex UIs.
+
+State, on the other hand, is used to manage data within a component. 
+It is an object that represents the current state of the component and can be updated by the component itself. 
+Whenever state is updated, the component is re-rendered with the new state value. 
+State is used for managing component-specific data that changes over time, such as user input, 
+fetched data, or UI states like open/closed modals or expanded/collapsed sections.
+
+
+Qustion 2
+
+Try/catch blocks allow a program to handle an exception gracefully in the way the programmer wants them to. 
+For example, try/catch blocks will let a program print an error message if it can't find an input file. 
+Try blocks are the first part of try/catch blocks.
+
+Qustion 3
+
+useState is a built-in React Hook that allows you to add state to a functional component. 
+It is one of the most commonly used Hooks in React.
+
+Before the introduction of Hooks in React 16.8, state management was only possible in class components. 
+However, with useState, functional components can now also have state.
