@@ -1,0 +1,17 @@
+Qustion 2
+There are two types of components in React:
+
+Class Components - these are more complex components that can have state and lifecycle methods. 
+They are typically used for container components.
+
+Function Components - these are simple components that take in props as input and return JSX elements. 
+They are typically used for presentational components.
+
+
+Qustion 3
+
+“Props” is a special keyword in React, which stands for properties and is being used for passing data from one component to another.
+
+But the important part here is that data with props are being passed in a uni-directional flow. (one way from parent to child)
+
+Furthermore, props data is read-only, which means that data coming from the parent should not be changed by child components.
