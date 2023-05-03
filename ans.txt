@@ -1,0 +1,35 @@
+Qustion 1
+
+(useEffect)
+        useEffect is a hook that allows you to execute side effects in your components. 
+It takes two arguments: a callback function and a dependency array. The callback function 
+will be executed after the component has been rendered and any time the dependencies in the dependency array have changed. 
+You can use useEffect to handle things like fetching data, subscribing to events, or manipulating the DOM.
+
+(useRef)
+        useRef is a hook that allows you to create a mutable object that persists for the entire lifetime of the component.
+You can use useRef to hold onto a reference to a DOM element or to any other mutable value. When the component re-renders,
+the useRef hook will return the same object. This can be useful when you need to maintain state across multiple renders.
+
+
+Qustion 2
+
+Mounting: When a component is first created and inserted into the DOM.
+Updating: When a component's state or props change, and it needs to be re-rendered.
+Unmounting: When a component is removed from the DOM.
+Error Handling: When there is an error in rendering, in a lifecycle method, or in the constructor of any child component.
+
+
+Qustion 3
+
+In React Hooks, you can access the lifecycle of a component using the useEffect hook. 
+The useEffect hook allows you to execute side effects in your components and manipulate the lifecycle of a component.
+
+To access the component mount lifecycle, you can use useEffect with an empty dependency array ([]) as the second argument. 
+This will ensure that the callback function is only executed once, after the component has mounted
+
+To access the component update lifecycle, you can pass state variables or props to the dependency array of useEffect. 
+This will cause the callback function to be executed whenever the state or props change.
+
+Finally, to access the component unmount lifecycle, you can return a cleanup function from the useEffect hook. 
+This function will be executed just before the component is unmounted.
