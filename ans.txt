@@ -1,0 +1,23 @@
+Question 
+
+
+TypeScript is an open-source programming language that is a strict syntactical superset of JavaScript.
+ TypeScript provides several features that enhance the development experience of JavaScript, such as classes, interfaces,
+ enums, and type annotations.
+
+why developers choose to use TypeScript:
+
+Type checking: TypeScript helps catch errors at compile-time instead of run-time by providing static type checking. 
+This helps developers write safer and more reliable code.
+
+Scalability: TypeScript allows developers to write large-scale applications more easily by providing features such as modules,
+ namespaces, and interfaces.
+
+Tooling: TypeScript has excellent tooling support with features such as code completion, type inference, and refactoring.
+ This makes it easier for developers to write and maintain code.
+
+Code readability: TypeScript's type annotations make code more self-documenting and easier to read, 
+which can save time and effort during code reviews and debugging.
+
+Future-proofing: TypeScript is constantly evolving and adding new features, which can help developers stay 
+up-to-date with the latest trends in web development.
